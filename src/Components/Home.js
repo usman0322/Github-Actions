@@ -6,7 +6,7 @@ class Home extends Component {
     return (
       <div>
 
-          <Header />
+          {/* <Header /> */}
       
         <div id="wrapper">
           <div className="content">

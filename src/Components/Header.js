@@ -1,4 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+
+
 
  class Header extends Component {
   render() {
@@ -7,7 +9,7 @@ import React, { Component } from 'react'
 
 <header className="main-header">
           <div className="logo-holder">
-            <a href="index.html">
+            <a href="/">
               <img src="../assets/images/logo.png" alt="" />
             </a>
           </div>
@@ -64,33 +66,33 @@ import React, { Component } from 'react'
             <nav>
               <ul className="no-list-style">
                 <li>
-                  <a href="#">
+                  <a href="/">
                     Agents<i className="fa fa-caret-down"></i>
                   </a>
 
                   <ul>
                     <li>
-                      <a href="agent-list.html">Agent List</a>
+                      <a href="/">Agent List</a>
                     </li>
                     <li>
-                      <a href="agent-single.html">Agent Single</a>
+                    <a href="/">Agent Single</a>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a href="pricing.html">Pricing</a>
+                <a href="/">Pricing</a>
                 </li>
                 <li>
-                  <a href="blog.html">News</a>
+                <a href="/">News</a>
                 </li>
                 <li>
-                  <a href="about.html">About</a>
+                <a href="/">About</a>
                 </li>
               </ul>
             </nav>
           </div>
 
-          <div className="header-search-wrapper novis_search">
+          {/* <div className="header-search-wrapper novis_search">
             <div className="header-serach-menu">
               <div className="custom-switcher fl-wrap">
                 <div className="fieldset fl-wrap">
@@ -149,7 +151,7 @@ import React, { Component } from 'react'
                 <button type="button" className="btn float-btn color-bg">
                   <i className="fal fa-search"></i> Search
                 </button>
-                {/* <button onClick="location.href='index.html'" type="button"  className="btn float-btn color-bg"><i className="fal fa-search"></i> Search</button> */}
+               
               </form>
             </div>
           </div>
@@ -400,7 +402,7 @@ import React, { Component } from 'react'
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </header>
 
 
