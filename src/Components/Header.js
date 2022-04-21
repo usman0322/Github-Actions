@@ -22,7 +22,7 @@ import React, { Component } from 'react'
 
           <div className="header-search-button">
             <i className="fal fa-search"></i>
-            <span>Searches...</span>
+            <span>Searchessss...</span>
           </div>
 
           <div className="add-list_wrap">
