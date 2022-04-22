@@ -6,7 +6,7 @@ class Home extends Component {
     return (
       <div>
 
-          {/* <Header /> */}
+          <Header />
       
         <div id="wrapper">
           <div className="content">
@@ -14,19 +14,19 @@ class Home extends Component {
               <div className="categoties-column_container cat-list">
                 <ul>
                   <li>
-                    <a href="#" className="act-category">
+                    <a href="/" className="act-category">
                       <i className="fal fa-home"></i>
                       <span>House</span>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="fal fa-hotel"></i>
                       <span>Townhomes</span>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="fal fa-city"></i>
                       <span>Condos</span>
                     </a>
@@ -56,14 +56,14 @@ class Home extends Component {
               <div id="map-main"></div>
               <ul className="mapnavigation no-list-style">
                 <li>
-                  <a href="#" className="prevmap-nav mapnavbtn">
+                  <a href="/" className="prevmap-nav mapnavbtn">
                     <span>
                       <i className="fas fa-caret-left"></i>
                     </span>
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="nextmap-nav mapnavbtn">
+                  <a href="/" className="nextmap-nav mapnavbtn">
                     <span>
                       <i className="fas fa-caret-right"></i>
                     </span>
@@ -255,7 +255,7 @@ class Home extends Component {
                   <article className="geodir-category-listing fl-wrap">
                     <div className="geodir-category-img fl-wrap">
                       <a
-                        href="listing-single.html"
+                        href="/"
                         className="geodir-category-img_item"
                       >
                         <img
@@ -267,7 +267,7 @@ class Home extends Component {
                       </a>
                       <div className="geodir-category-location">
                         <a
-                          href="#1"
+                          href="/"
                           className="map-item tolt"
                           data-microtip-position="top-left"
                           data-tooltip="On the map"
@@ -278,18 +278,18 @@ class Home extends Component {
                       </div>
                       <ul className="list-single-opt_header_cat">
                         <li>
-                          <a href="#" className="cat-opt blue-bg">
+                          <a href="/" className="cat-opt blue-bg">
                             Sale
                           </a>
                         </li>
                         <li>
-                          <a href="#" className="cat-opt color-bg">
+                          <a href="/" className="cat-opt color-bg">
                             Apartment
                           </a>
                         </li>
                       </ul>
                       <a
-                        href="#"
+                        href="/"
                         className="geodir_save-btn tolt"
                         data-microtip-position="left"
                         data-tooltip="Save"
@@ -299,7 +299,7 @@ class Home extends Component {
                         </span>
                       </a>
                       <a
-                        href="#"
+                        href="/"
                         className="compare-btn tolt"
                         data-microtip-position="left"
                         data-tooltip="Compare"
@@ -316,7 +316,7 @@ class Home extends Component {
                     </div>
                     <div className="geodir-category-content fl-wrap">
                       <h3>
-                        <a href="listing-single.html">
+                        <a href="/">
                           Gorgeous house For sale
                         </a>
                       </h3>
@@ -345,7 +345,7 @@ class Home extends Component {
                         </ul>
                       </div>
                       <div className="geodir-category-footer fl-wrap">
-                        <a href="agent-single.html" className="gcf-company">
+                        <a href="/" className="gcf-company">
                           <img src="../assets/images/avatar/2.jpg" alt="" />
                           <span>By Liza Rose</span>
                         </a>
@@ -364,7 +364,7 @@ class Home extends Component {
                   <article className="geodir-category-listing fl-wrap">
                     <div className="geodir-category-img fl-wrap">
                       <a
-                        href="listing-single.html"
+                        href="/"
                         className="geodir-category-img_item"
                       >
                         <img src="../assets/images/all/1.jpg" alt="" />
@@ -372,7 +372,7 @@ class Home extends Component {
                       </a>
                       <div className="geodir-category-location">
                         <a
-                          href="#2"
+                          href="/"
                           className="map-item tolt"
                           data-microtip-position="top-left"
                           data-tooltip="On the map"
@@ -383,18 +383,18 @@ class Home extends Component {
                       </div>
                       <ul className="list-single-opt_header_cat">
                         <li>
-                          <a href="#" className="cat-opt blue-bg">
+                          <a href="/" className="cat-opt blue-bg">
                             Sale
                           </a>
                         </li>
                         <li>
-                          <a href="#" className="cat-opt color-bg">
+                          <a href="/" className="cat-opt color-bg">
                             Apartment
                           </a>
                         </li>
                       </ul>
                       <a
-                        href="#"
+                        href="/"
                         className="geodir_save-btn tolt"
                         data-microtip-position="left"
                         data-tooltip="Save"
@@ -404,7 +404,7 @@ class Home extends Component {
                         </span>
                       </a>
                       <a
-                        href="#"
+                        href="/"
                         className="compare-btn tolt"
                         data-microtip-position="left"
                         data-tooltip="Compare"
@@ -421,7 +421,7 @@ class Home extends Component {
                     </div>
                     <div className="geodir-category-content fl-wrap">
                       <h3>
-                        <a href="listing-single.html">Luxury Family Home</a>
+                        <a href="/">Luxury Family Home</a>
                       </h3>
                       <div className="geodir-category-content_price">
                         $ 320,000
@@ -448,7 +448,7 @@ class Home extends Component {
                         </ul>
                       </div>
                       <div className="geodir-category-footer fl-wrap">
-                        <a href="agent-single.html" className="gcf-company">
+                        <a href="/" className="gcf-company">
                           <img src="../assets/images/avatar/1.jpg" alt="" />
                           <span>By Anna Lips</span>
                         </a>
@@ -467,7 +467,7 @@ class Home extends Component {
                   <article className="geodir-category-listing fl-wrap">
                     <div className="geodir-category-img fl-wrap">
                       <a
-                        href="listing-single.html"
+                        href="/"
                         className="geodir-category-img_item"
                       >
                         <img src="../assets/images/all/9.jpg" alt="" />
@@ -475,7 +475,7 @@ class Home extends Component {
                       </a>
                       <div className="geodir-category-location">
                         <a
-                          href="#3"
+                          href="/"
                           className="map-item tolt"
                           data-microtip-position="top-left"
                           data-tooltip="On the map"
@@ -486,18 +486,18 @@ class Home extends Component {
                       </div>
                       <ul className="list-single-opt_header_cat">
                         <li>
-                          <a href="#" className="cat-opt blue-bg">
+                          <a href="/" className="cat-opt blue-bg">
                             Rent
                           </a>
                         </li>
                         <li>
-                          <a href="#" className="cat-opt color-bg">
+                          <a href="/" className="cat-opt color-bg">
                             House
                           </a>
                         </li>
                       </ul>
                       <a
-                        href="#"
+                        href="/"
                         className="geodir_save-btn tolt"
                         data-microtip-position="left"
                         data-tooltip="Save"
@@ -507,7 +507,7 @@ class Home extends Component {
                         </span>
                       </a>
                       <a
-                        href="#"
+                        href="/"
                         className="compare-btn tolt"
                         data-microtip-position="left"
                         data-tooltip="Compare"
@@ -524,7 +524,7 @@ class Home extends Component {
                     </div>
                     <div className="geodir-category-content fl-wrap">
                       <h3>
-                        <a href="listing-single.html">Family house For Rent</a>
+                        <a href="/">Family house For Rent</a>
                       </h3>
                       <div className="geodir-category-content_price">
                         $ 700 / per month
@@ -551,7 +551,7 @@ class Home extends Component {
                         </ul>
                       </div>
                       <div className="geodir-category-footer fl-wrap">
-                        <a href="agent-single.html" className="gcf-company">
+                        <a href="/" className="gcf-company">
                           <img src="../assets/images/avatar/3.jpg" alt="" />
                           <span>By Mark Frosty</span>
                         </a>
@@ -570,7 +570,7 @@ class Home extends Component {
                   <article className="geodir-category-listing fl-wrap">
                     <div className="geodir-category-img fl-wrap">
                       <a
-                        href="listing-single.html"
+                        href="/"
                         className="geodir-category-img_item"
                       >
                         <img src="../assets/images/all/6.jpg" alt="" />
@@ -578,7 +578,7 @@ class Home extends Component {
                       </a>
                       <div className="geodir-category-location">
                         <a
-                          href="#4"
+                          href="/"
                           className="map-item tolt"
                           data-microtip-position="top-left"
                           data-tooltip="On the map"
@@ -589,18 +589,18 @@ class Home extends Component {
                       </div>
                       <ul className="list-single-opt_header_cat">
                         <li>
-                          <a href="#" className="cat-opt blue-bg">
+                          <a href="/" className="cat-opt blue-bg">
                             Sale
                           </a>
                         </li>
                         <li>
-                          <a href="#" className="cat-opt color-bg">
+                          <a href="/" className="cat-opt color-bg">
                             Apartment
                           </a>
                         </li>
                       </ul>
                       <a
-                        href="#"
+                        href="/"
                         className="geodir_save-btn tolt"
                         data-microtip-position="left"
                         data-tooltip="Save"
@@ -610,7 +610,7 @@ class Home extends Component {
                         </span>
                       </a>
                       <a
-                        href="#"
+                        href="/"
                         className="compare-btn tolt"
                         data-microtip-position="left"
                         data-tooltip="Compare"
@@ -627,7 +627,7 @@ class Home extends Component {
                     </div>
                     <div className="geodir-category-content fl-wrap">
                       <h3>
-                        <a href="listing-single.html">Contemporary Apartment</a>
+                        <a href="/">Contemporary Apartment</a>
                       </h3>
                       <div className="geodir-category-content_price">
                         $ 1,600,000
@@ -654,7 +654,7 @@ class Home extends Component {
                         </ul>
                       </div>
                       <div className="geodir-category-footer fl-wrap">
-                        <a href="agent-single.html" className="gcf-company">
+                        <a href="/" className="gcf-company">
                           <img src="../assets/images/avatar/4.jpg" alt="" />
                           <span>By Bill Trust</span>
                         </a>
@@ -674,7 +674,7 @@ class Home extends Component {
                   <article className="geodir-category-listing fl-wrap">
                     <div className="geodir-category-img fl-wrap">
                       <a
-                        href="listing-single.html"
+                        href="/"
                         className="geodir-category-img_item"
                       >
                         <img src="../assets/images/all/5.jpg" alt="" />
@@ -682,7 +682,7 @@ class Home extends Component {
                       </a>
                       <div className="geodir-category-location">
                         <a
-                          href="#5"
+                          href="/"
                           className="map-item tolt"
                           data-microtip-position="top-left"
                           data-tooltip="On the map"
@@ -693,18 +693,18 @@ class Home extends Component {
                       </div>
                       <ul className="list-single-opt_header_cat">
                         <li>
-                          <a href="#" className="cat-opt blue-bg">
+                          <a href="/" className="cat-opt blue-bg">
                             Sale
                           </a>
                         </li>
                         <li>
-                          <a href="#" className="cat-opt color-bg">
+                          <a href="/" className="cat-opt color-bg">
                             Villa
                           </a>
                         </li>
                       </ul>
                       <a
-                        href="#"
+                        href="/"
                         className="geodir_save-btn tolt"
                         data-microtip-position="left"
                         data-tooltip="Save"
@@ -714,7 +714,7 @@ class Home extends Component {
                         </span>
                       </a>
                       <a
-                        href="#"
+                        href="/"
                         className="compare-btn tolt"
                         data-microtip-position="left"
                         data-tooltip="Compare"
@@ -731,7 +731,7 @@ class Home extends Component {
                     </div>
                     <div className="geodir-category-content fl-wrap">
                       <h3>
-                        <a href="listing-single.html">Kayak Point House</a>
+                        <a href="/">Kayak Point House</a>
                       </h3>
                       <div className="geodir-category-content_price">
                         $ 500.000
@@ -758,7 +758,7 @@ class Home extends Component {
                         </ul>
                       </div>
                       <div className="geodir-category-footer fl-wrap">
-                        <a href="agent-single.html" className="gcf-company">
+                        <a href="/" className="gcf-company">
                           <img src="../assets/images/avatar/6.jpg" alt="" />
                           <span>By Andy Sposty</span>
                         </a>
@@ -777,7 +777,7 @@ class Home extends Component {
                   <article className="geodir-category-listing fl-wrap">
                     <div className="geodir-category-img fl-wrap">
                       <a
-                        href="listing-single.html"
+                        href="/"
                         className="geodir-category-img_item"
                       >
                         <img src="../assets/images/all/8.jpg" alt="" />
@@ -785,7 +785,7 @@ class Home extends Component {
                       </a>
                       <div className="geodir-category-location">
                         <a
-                          href="#6"
+                          href="/"
                           className="map-item tolt"
                           data-microtip-position="top-left"
                           data-tooltip="On the map"
@@ -796,18 +796,18 @@ class Home extends Component {
                       </div>
                       <ul className="list-single-opt_header_cat">
                         <li>
-                          <a href="#" className="cat-opt blue-bg">
+                          <a href="/" className="cat-opt blue-bg">
                             Rent
                           </a>
                         </li>
                         <li>
-                          <a href="#" className="cat-opt color-bg">
+                          <a href="/" className="cat-opt color-bg">
                             Apartment
                           </a>
                         </li>
                       </ul>
                       <a
-                        href="#"
+                        href="/"
                         className="geodir_save-btn tolt"
                         data-microtip-position="left"
                         data-tooltip="Save"
@@ -817,7 +817,7 @@ class Home extends Component {
                         </span>
                       </a>
                       <a
-                        href="#"
+                        href="/"
                         className="compare-btn tolt"
                         data-microtip-position="left"
                         data-tooltip="Compare"
@@ -834,7 +834,7 @@ class Home extends Component {
                     </div>
                     <div className="geodir-category-content fl-wrap">
                       <h3>
-                        <a href="listing-single.html">Urban House</a>
+                        <a href="/">Urban House</a>
                       </h3>
                       <div className="geodir-category-content_price">
                         1500 / per month
@@ -861,7 +861,7 @@ class Home extends Component {
                         </ul>
                       </div>
                       <div className="geodir-category-footer fl-wrap">
-                        <a href="agent-single.html" className="gcf-company">
+                        <a href="/" className="gcf-company">
                           <img src="../assets/images/avatar/5.jpg" alt="" />
                           <span>By Liza Kobart</span>
                         </a>
@@ -879,16 +879,16 @@ class Home extends Component {
               </div>
 
               <div className="pagination">
-                <a href="#" className="prevposts-link">
+                <a href="/" className="prevposts-link">
                   <i className="fa fa-caret-left"></i>
                 </a>
-                <a href="#">1</a>
-                <a href="#" className="current-page">
+                <a href="/">1</a>
+                <a href="/" className="current-page">
                   2
                 </a>
-                <a href="#">3</a>
-                <a href="#">4</a>
-                <a href="#" className="nextposts-link">
+                <a href="/">3</a>
+                <a href="/">4</a>
+                <a href="/" className="nextposts-link">
                   <i className="fa fa-caret-right"></i>
                 </a>
               </div>
@@ -900,7 +900,7 @@ class Home extends Component {
                 </div>
                 <a
                   className="custom-to-top color-bg custom-scroll-link"
-                  href="#main"
+                  href="/"
                 >
                   <i className="fas fa-caret-up"></i>
                 </a>
@@ -930,8 +930,8 @@ class Home extends Component {
                         <div className="main-register">
                             <div className="close-reg"><i className="fal fa-times"></i></div>
                             <ul className="tabs-menu fl-wrap no-list-style">
-                                <li className="current"><a href="#tab-1"><i className="fal fa-sign-in-alt"></i> Login</a></li>
-                                <li><a href="#tab-2"><i className="fal fa-user-plus"></i> Register</a></li>
+                                <li className="current"><a href="/"><i className="fal fa-sign-in-alt"></i> Login</a></li>
+                                <li><a href="/"><i className="fal fa-user-plus"></i> Register</a></li>
                             </ul>
                       
                             <div className="tabs-container">
@@ -950,7 +950,7 @@ class Home extends Component {
                                                     <span className="eye"><i className="fal fa-eye"></i> </span>
                                                 </div>
                                                 <div className="lost_password">
-                                                    <a href="#">Lost Your Password?</a>
+                                                    <a href="/">Lost Your Password?</a>
                                                 </div>
                                                 <div className="filter-tags">
                                                     <input id="check-a3" type="checkbox" name="check" />
@@ -980,7 +980,7 @@ class Home extends Component {
                                                     </div>
                                                     <div className="filter-tags ft-list">
                                                         <input id="check-a2" type="checkbox" name="check" />
-                                                        <label htmlFor="check-a2">I agree to the <a href="#">Privacy Policy</a> and <a href="#">Terms and Conditions</a></label>
+                                                        <label htmlFor="check-a2">I agree to the <a href="/">Privacy Policy</a> and <a href="/">Terms and Conditions</a></label>
                                                     </div>
                                                     <div className="clearfix"></div>
                                                     <button type="submit"     className="log_btn color-bg"> Register </button>
@@ -994,7 +994,7 @@ class Home extends Component {
                                 <div className="log-separator fl-wrap"><span>or</span></div>
                                 <div className="soc-log fl-wrap">
                                     <p>For faster login or register use your social account.</p>
-                                    <a href="#" className="facebook-log"> Facebook</a>
+                                    <a href="/" className="facebook-log"> Facebook</a>
                                 </div>
                             </div>
                         </div>
