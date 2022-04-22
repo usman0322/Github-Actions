@@ -92,7 +92,7 @@ import React, { Component } from 'react';
             </nav>
           </div>
 
-          {/* <div className="header-search-wrapper novis_search">
+          <div className="header-search-wrapper novis_search">
             <div className="header-serach-menu">
               <div className="custom-switcher fl-wrap">
                 <div className="fieldset fl-wrap">
@@ -159,13 +159,13 @@ import React, { Component } from 'react';
           <div className="header-modal novis_wishlist tabs-act">
             <ul className="tabs-menu fl-wrap no-list-style">
               <li className="current">
-                <a href="#tab-wish">
+                <a href="/">
                   {" "}
                   Wishlist <span>- 3</span>
                 </a>
               </li>
               <li>
-                <a href="#tab-compare">
+                <a href="/">
                   {" "}
                   Compare <span>- 2</span>
                 </a>
@@ -183,7 +183,7 @@ import React, { Component } from 'react';
                       <ul className="no-list-style">
                         <li>
                           <div className="widget-posts-img">
-                            <a href="listing-single.html">
+                            <a href="/">
                               <img
                                 src="../assets/images/all/small/1.jpg"
                                 alt=""
@@ -192,12 +192,12 @@ import React, { Component } from 'react';
                           </div>
                           <div className="widget-posts-descr">
                             <h4>
-                              <a href="listing-single.html">
+                              <a href="/">
                                 Affordable Urban Room
                               </a>
                             </h4>
                             <div className="geodir-category-location fl-wrap">
-                              <a href="#">
+                              <a href="/">
                                 <i className="fas fa-map-marker-alt"></i> 40
                                 Journal Square , NJ, USA
                               </a>
@@ -212,7 +212,7 @@ import React, { Component } from 'react';
                         </li>
                         <li>
                           <div className="widget-posts-img">
-                            <a href="listing-single.html">
+                            <a href="/">
                               <img
                                 src="..assets/images/all/small/2.jpg"
                                 alt=""
@@ -221,10 +221,10 @@ import React, { Component } from 'react';
                           </div>
                           <div className="widget-posts-descr">
                             <h4>
-                              <a href="listing-single.html">Family House</a>
+                              <a href="/">Family House</a>
                             </h4>
                             <div className="geodir-category-location fl-wrap">
-                              <a href="#">
+                              <a href="/">
                                 <i className="fas fa-map-marker-alt"></i> 34-42
                                 Montgomery St , NY, USA
                               </a>
@@ -239,7 +239,7 @@ import React, { Component } from 'react';
                         </li>
                         <li>
                           <div className="widget-posts-img">
-                            <a href="listing-single.html">
+                            <a href="/">
                               <img
                                 src="../assets/images/all/small/3.jpg"
                                 alt=""
@@ -248,12 +248,12 @@ import React, { Component } from 'react';
                           </div>
                           <div className="widget-posts-descr">
                             <h4>
-                              <a href="listing-single.html">
+                              <a href="/">
                                 Apartment to Rent
                               </a>
                             </h4>
                             <div className="geodir-category-location fl-wrap">
-                              <a href="#">
+                              <a href="/">
                                 <i className="fas fa-map-marker-alt"></i>75
                                 Prince St, NY, USA
                               </a>
@@ -287,7 +287,7 @@ import React, { Component } from 'react';
                         <ul className="no-list-style">
                           <li>
                             <div className="widget-posts-img">
-                              <a href="listing-single.html">
+                              <a href="/">
                                 <img
                                   src="../assets/images/all/small/4.jpg"
                                   alt=""
@@ -296,12 +296,12 @@ import React, { Component } from 'react';
                             </div>
                             <div className="widget-posts-descr">
                               <h4>
-                                <a href="listing-single.html">
+                                <a href="/">
                                   Gorgeous house For sale
                                 </a>
                               </h4>
                               <div className="geodir-category-location fl-wrap">
-                                <a href="#">
+                                <a href="/">
                                   <i className="fas fa-map-marker-alt"></i> 70
                                   Bright St New York, USA{" "}
                                 </a>
@@ -316,7 +316,7 @@ import React, { Component } from 'react';
                           </li>
                           <li>
                             <div className="widget-posts-img">
-                              <a href="listing-single.html">
+                              <a href="/">
                                 <img
                                   src="../assets/images/all/small/5.jpg"
                                   alt=""
@@ -325,12 +325,12 @@ import React, { Component } from 'react';
                             </div>
                             <div className="widget-posts-descr">
                               <h4>
-                                <a href="listing-single.html">
+                                <a href="/">
                                   Family Apartments
                                 </a>
                               </h4>
                               <div className="geodir-category-location fl-wrap">
-                                <a href="#">
+                                <a href="/">
                                   <i className="fas fa-map-marker-alt"></i> W
                                   85th St, New York, USA{" "}
                                 </a>
@@ -350,7 +350,7 @@ import React, { Component } from 'react';
                     <div className="header-modal-top fl-wrap">
                       <a
                         className="clear_wishlist color-bg"
-                        href="compare.html"
+                        href="/"
                       >
                         <i className="fal fa-random"></i> Compare
                       </a>
@@ -370,12 +370,12 @@ import React, { Component } from 'react';
                 <div className="header-opt-modal-list fl-wrap">
                   <ul>
                     <li>
-                      <a href="#" className="current-lan" data-lantext="EN">
+                      <a href="/" className="current-lan" data-lantext="EN">
                         English
                       </a>
                     </li>
                     <li>
-                      <a href="#" data-lantext="FR">
+                      <a href="/" data-lantext="FR">
                         Franais
                       </a>
                     </li>
@@ -389,12 +389,12 @@ import React, { Component } from 'react';
                 <div className="header-opt-modal-list fl-wrap">
                   <ul>
                     <li>
-                      <a href="#" className="current-lan" data-lantext="CAD">
+                      <a href="/" className="current-lan" data-lantext="CAD">
                         CAD
                       </a>
                     </li>
                     <li>
-                      <a href="#" data-lantext="USD">
+                      <a href="/" data-lantext="USD">
                         USD
                       </a>
                     </li>
@@ -402,7 +402,7 @@ import React, { Component } from 'react';
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
         </header>
 
 
